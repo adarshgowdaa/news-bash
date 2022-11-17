@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-
 import NewsItem from '../components/Item'
 import Spinner from '../components/Spinner';
 import PropTypes from 'prop-types'
@@ -55,6 +54,8 @@ const News = (props)=>{
                     hasMore={articles.length !== totalResults}
                     loader={<Spinner/>}
                 > 
+            <marquee style={{ color:'red', fontWeight:"bold"}}>This is a Portfolio Project --- API Credits : News API <a href="https://newsapi.org/">(https://newsapi.org/)</a></marquee>
+
                     <div className="container">
                          
                     <div className="row">

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-News Bash is a simple news website build using `react-js` a javascript library. It fetches the news from `News-API` and serves it on the website. The News can be categorized into various topics based upon the user needs. 
+News Bash is a simple news website build using `react-js` a javascript library. It fetches the news from `News-API` and serves it on the website. The News can be categorized into various topics based upon the user needs. This website is live and hosted using `firebase`
 
 ## Website User interface
 
